@@ -48,6 +48,7 @@ jobs:
     needs: publish-job
     steps:
     - uses: actions/download-artifact@v4.1.8
-    - name: Display structure of downloaded files
-      run: ls -R
-      
+      with:
+        name: Package
+        path: staging
+    - run: ls -ltr
