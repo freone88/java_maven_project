@@ -51,4 +51,4 @@ jobs:
       with:
         name: Package
         path: staging
-    - run: ls -ltr
+    - run: ls -ltr && ls -ltr staging
