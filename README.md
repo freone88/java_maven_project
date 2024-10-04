@@ -1,2 +1,2 @@
 # java_maven_project
-for testing purposes
+This is simple java maven project for github actions
